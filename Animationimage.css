@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img{
     height: 200px;
     width: 500px;
@@ -45,3 +46,52 @@ body{
 }
     
 
+=======
+img{
+    height: 200px;
+    width: 500px;
+    animation: bike 5s ease-out 2s infinite;
+}
+body{
+    overflow: hidden;
+}
+@keyframes bike{
+    0%{
+        margin-left: 100px;
+        transform: scale(0.4);
+        opacity: 1;
+
+    }
+    20%{
+        margin-left: 150px;
+        transform: scale(1.8);
+        opacity: 0.8;
+    }
+    40%{
+        margin-left: 200px;
+        transform: scale(0.4);
+        opacity: 0.6;
+
+    }
+    60%{
+        margin-left: 250px;
+        transform: scale(1.8);
+        opacity: 0.4;
+    }
+    80%{
+        margin-left: 300px;
+        transform: scale(0.4);
+        opacity: 0.2;
+
+    }
+    100%{
+        margin-left: 350px;
+        transform: scale(1.8);
+         opacity: 0.0;
+    }
+
+
+}
+    
+
+>>>>>>> cedd72e27fd104b462c8d125de47e30e80056942
